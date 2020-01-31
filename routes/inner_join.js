@@ -1,6 +1,6 @@
 const express = require("express");
 const inner = express.Router();
-const innerDB   = require("../model/inner_joinDB")
+const innerDB = require("../model/inner_joinDB")
 
 inner.post('/inner_post', (req,res) => {
     let post_data = {
